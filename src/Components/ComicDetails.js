@@ -5,8 +5,9 @@ class ComicDetails extends Component{
       render() {
         return (
           <div className="details">
-              <img className="details-image"  src={this.props.comic.image.original_url } alt=""></img>
+              <img className="details-image"  src={this.props.comic.image.original_url } alt="no provided"></img>
               <div> Characters:
+                
                 {this.props.comic.character_credits.map(character => {
                     return <div key={character.id} className="comic-character">{character.name}</div>
                   })
