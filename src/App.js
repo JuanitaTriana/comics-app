@@ -1,23 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ComicList from './Components/ComicList';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="header-container">
+        <div className="header" >My Comics page</div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+          This is a comic page where you can find the most recent comics from <a className="App-link"
+          href="https://comicvine.gamespot.com"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          rel="noopener noreferrer">Comic Vine</a>
+        </p>
+        </div>
+        <div className="body-container">
+          <ComicList />
+        </div>
       </header>
     </div>
   );

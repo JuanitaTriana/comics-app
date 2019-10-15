@@ -1,22 +1,36 @@
 .App {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+.header-container{
+    position: fixed;
+    top: 0%;
+    background-color: rgb(35, 45, 49);
+    width: 100%;
+    color: white;
+    height: 150px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
+.header {
+  font-size: 50pt;
+  font-weight: bold;
+}
 .App-link {
   color: #09d3ac;
+}
+
+.body-container{
+  margin-top: 150px;
 }

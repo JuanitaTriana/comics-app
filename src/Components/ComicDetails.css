@@ -1,0 +1,13 @@
+
+.details{
+    font-size: 18pt;
+    padding: 1%;
+    background-color: #c4c4c4;
+}
+.details-image {
+    height: 300px;
+}
+.comic-character {
+    color: grey;
+    font-size: 16pt;
+}

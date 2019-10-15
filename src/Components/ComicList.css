@@ -1,0 +1,39 @@
+.list{
+    display: flex;
+    flex-flow: row wrap;
+}
+.w70 {
+    width: 75%;
+}
+.details {
+    display: block;
+    text-align: center;
+    width: 25%;
+    height: calc(100vh - 170px);
+    position: fixed;
+    right: 0%;
+    float: right;
+    overflow: scroll;
+}
+
+.list-element{
+    width: 25%;
+}
+.comicIcon {
+    margin: 2%;
+    height: 200px;
+    max-width: 150px;
+}
+
+.comic-name{
+    font-size: 12pt;
+    color: rgb(35, 45, 49);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.comic-date{
+    font-size: 10pt;
+    color: gray;
+    font-style: italic;
+}
