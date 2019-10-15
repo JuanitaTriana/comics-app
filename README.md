@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+If you want to start the project to visualize the Web App, you just have to clone the repository, open the project and execute in terminal the next line
+### `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
